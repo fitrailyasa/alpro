@@ -1,0 +1,37 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+  {
+    float luasL, phi=3.14;
+    float luasB, seta=0.5;
+    int r;
+    int diag;
+    cout<<"Program Menghitung Luas daerah yang diarsir, "<<endl;
+    cout<<"dari Luas Lingkaran dan Luas Belah Ketupat"<<endl;
+    cout<<"Catatan: Belah Ketupat Berada di dalam Lingkaran"<<endl;
+    cout<<">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"<<endl;
+    cout<<"Masukan Jari-jari Lingkaran : ";
+    cin>>r;
+    
+    luasL = phi*r*r;
+
+    cout<<"Luas Lingkaran = "<<luasL<<endl;
+    cout<<">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"<<endl;
+
+    cout<<"Masukkan panjang d1 & d2 Belah Ketupat : ";
+    cin>>diag;
+ 
+    luasB = seta*diag*diag;
+ 
+    cout<<"Luas Belah ketupat = "<<luasB<<endl;
+    cout<<">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"<<endl;
+
+    cout<<"Luas Daerah yang Diarsir =  "<<luasL-luasB<<endl;
+
+  getch();
+  }
+
+ 
+
+ 
